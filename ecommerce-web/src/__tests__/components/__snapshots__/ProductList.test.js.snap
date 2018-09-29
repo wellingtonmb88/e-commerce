@@ -1,0 +1,460 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ProductList without crashing 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ProductList
+    items={
+        Array [
+            Object {
+              "description": "Ferari 1984, Red, 1000hp ",
+              "id": 1,
+              "price": 3000.99,
+              "title": "Ferrari 1984",
+            },
+            Object {
+              "description": "Porsche 2015, Black, 2000hp ",
+              "id": 2,
+              "price": 6000.99,
+              "title": "Porsche 2015 ",
+            },
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <div>
+          <WithStyles(ListItem)
+                    divider={true}
+          >
+                    <WithStyles(ListItemText)
+                              primary="Ferrari 1984"
+                    />
+                    <WithStyles(ListItemText)
+                              primary={3000.99}
+                    />
+                    <WithStyles(ListItemText)
+                              primary="Ferari 1984, Red, 1000hp "
+                    />
+          </WithStyles(ListItem)>
+</div>,
+        <div>
+          <WithStyles(ListItem)
+                    divider={true}
+          >
+                    <WithStyles(ListItemText)
+                              primary="Porsche 2015 "
+                    />
+                    <WithStyles(ListItemText)
+                              primary={6000.99}
+                    />
+                    <WithStyles(ListItemText)
+                              primary="Porsche 2015, Black, 2000hp "
+                    />
+          </WithStyles(ListItem)>
+</div>,
+      ],
+      "component": "nav",
+      "style": Object {
+        "margin": "10px 50px 10px 50px",
+      },
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "host",
+        "props": Object {
+          "children": <WithStyles(ListItem)
+            divider={true}
+>
+            <WithStyles(ListItemText)
+                        primary="Ferrari 1984"
+            />
+            <WithStyles(ListItemText)
+                        primary={3000.99}
+            />
+            <WithStyles(ListItemText)
+                        primary="Ferari 1984, Red, 1000hp "
+            />
+</WithStyles(ListItem)>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <WithStyles(ListItemText)
+                primary="Ferrari 1984"
+/>,
+              <WithStyles(ListItemText)
+                primary={3000.99}
+/>,
+              <WithStyles(ListItemText)
+                primary="Ferari 1984, Red, 1000hp "
+/>,
+            ],
+            "divider": true,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "primary": "Ferrari 1984",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "primary": 3000.99,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "primary": "Ferari 1984, Red, 1000hp ",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "2",
+        "nodeType": "host",
+        "props": Object {
+          "children": <WithStyles(ListItem)
+            divider={true}
+>
+            <WithStyles(ListItemText)
+                        primary="Porsche 2015 "
+            />
+            <WithStyles(ListItemText)
+                        primary={6000.99}
+            />
+            <WithStyles(ListItemText)
+                        primary="Porsche 2015, Black, 2000hp "
+            />
+</WithStyles(ListItem)>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <WithStyles(ListItemText)
+                primary="Porsche 2015 "
+/>,
+              <WithStyles(ListItemText)
+                primary={6000.99}
+/>,
+              <WithStyles(ListItemText)
+                primary="Porsche 2015, Black, 2000hp "
+/>,
+            ],
+            "divider": true,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "primary": "Porsche 2015 ",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "primary": 6000.99,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "primary": "Porsche 2015, Black, 2000hp ",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "type": "div",
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <div>
+            <WithStyles(ListItem)
+                        divider={true}
+            >
+                        <WithStyles(ListItemText)
+                                    primary="Ferrari 1984"
+                        />
+                        <WithStyles(ListItemText)
+                                    primary={3000.99}
+                        />
+                        <WithStyles(ListItemText)
+                                    primary="Ferari 1984, Red, 1000hp "
+                        />
+            </WithStyles(ListItem)>
+</div>,
+          <div>
+            <WithStyles(ListItem)
+                        divider={true}
+            >
+                        <WithStyles(ListItemText)
+                                    primary="Porsche 2015 "
+                        />
+                        <WithStyles(ListItemText)
+                                    primary={6000.99}
+                        />
+                        <WithStyles(ListItemText)
+                                    primary="Porsche 2015, Black, 2000hp "
+                        />
+            </WithStyles(ListItem)>
+</div>,
+        ],
+        "component": "nav",
+        "style": Object {
+          "margin": "10px 50px 10px 50px",
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "host",
+          "props": Object {
+            "children": <WithStyles(ListItem)
+              divider={true}
+>
+              <WithStyles(ListItemText)
+                            primary="Ferrari 1984"
+              />
+              <WithStyles(ListItemText)
+                            primary={3000.99}
+              />
+              <WithStyles(ListItemText)
+                            primary="Ferari 1984, Red, 1000hp "
+              />
+</WithStyles(ListItem)>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <WithStyles(ListItemText)
+                  primary="Ferrari 1984"
+/>,
+                <WithStyles(ListItemText)
+                  primary={3000.99}
+/>,
+                <WithStyles(ListItemText)
+                  primary="Ferari 1984, Red, 1000hp "
+/>,
+              ],
+              "divider": true,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "primary": "Ferrari 1984",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "primary": 3000.99,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "primary": "Ferari 1984, Red, 1000hp ",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "host",
+          "props": Object {
+            "children": <WithStyles(ListItem)
+              divider={true}
+>
+              <WithStyles(ListItemText)
+                            primary="Porsche 2015 "
+              />
+              <WithStyles(ListItemText)
+                            primary={6000.99}
+              />
+              <WithStyles(ListItemText)
+                            primary="Porsche 2015, Black, 2000hp "
+              />
+</WithStyles(ListItem)>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <WithStyles(ListItemText)
+                  primary="Porsche 2015 "
+/>,
+                <WithStyles(ListItemText)
+                  primary={6000.99}
+/>,
+                <WithStyles(ListItemText)
+                  primary="Porsche 2015, Black, 2000hp "
+/>,
+              ],
+              "divider": true,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "primary": "Porsche 2015 ",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "primary": 6000.99,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "primary": "Porsche 2015, Black, 2000hp ",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          "type": "div",
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
